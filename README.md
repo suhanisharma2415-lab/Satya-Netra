@@ -35,3 +35,24 @@ SatyaNetra/
 ├── app.py                   # Main interactive Streamlit application frontend file
 ├── train.py                 # Core model building, tokenization, and preprocessing engine script
 └── model/                   # Local storage container directory for localized model evaluation profiles
+
+**💻 Local Installation & Setup**
+To run this repository locally on your machine, follow these steps:
+
+Clone the repository:
+
+git clone [https://github.com/suhanisharma2415-lab/Satya-Netra.git](https://github.com/suhanisharma2415-lab/Satya-Netra.git)
+cd Satya-Netra
+Set up a virtual environment and activate it:
+
+python -m venv venv
+**# On Windows:**
+venv\Scripts\activate
+**# On Mac/Linux:
+source venv/bin/a**ctivate
+Install the required production dependencies:
+
+pip install -r requirements.txt
+Launch the local development server:
+
+streamlit run app.py
