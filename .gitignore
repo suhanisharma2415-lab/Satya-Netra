@@ -1,0 +1,8 @@
+venv/
+dataset/
+model/
+__pycache__/
+*.pkl
+*.csv
+*.zip
+*.bin
